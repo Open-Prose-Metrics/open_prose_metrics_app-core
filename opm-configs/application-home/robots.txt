@@ -1,5 +1,0 @@
-User-agent: * Disallow: /virtualenv/
-User-agent: * Disallow: /util/
-User-agent: * Disallow: /example/
-User-agent: * Disallow: /admin/
-
