@@ -5,7 +5,7 @@ from nltk.tokenize import word_tokenize
 
 def ner(text):
     st = StanfordNERTagger(
-        '/usr/share/stanford-ner/classifiers/english.all.3class.distsim.crf.ser.gz', '/usr/share/stanford-ner/stanford-ner.jar', encoding='utf-8'
+        '/opt/opm/stanford-ner/classifiers/english.all.3class.distsim.crf.ser.gz', '/opt/opm/stanford-ner/stanford-ner.jar', encoding='utf-8'
         )
 
     #text = 'While in France, Christine Lagarde discussed short-term stimulus efforts in a recent interview with the Wall Street Journal.'
