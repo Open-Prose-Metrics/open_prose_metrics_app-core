@@ -1,0 +1,178 @@
+opm
+├── annotations
+│   ├── __init__.py
+│   └── markupText.py
+├── app.py
+├── cliches
+│   ├── cliches.py
+│   ├── __init__.py
+│   └── README.md
+├── complexity
+│   ├── complexity.py
+│   └── __init__.py
+├── config-default.json
+├── configuration.py
+├── conventions
+│   ├── conventions.py
+│   └── __init__.py
+├── convertDoc
+│   ├── __init__.py
+│   ├── text2html.py
+│   └── to_body.py
+├── convert_strings
+│   ├── __init__.py
+│   └── text_converter.py
+├── difficult_spelling
+│   ├── difficult_spelling.py
+│   ├── difficult_words.py
+│   └── __init__.py
+├── docs
+│   ├── licenses.html
+│   └── licenses.json
+├── external
+│   ├── education.py
+│   ├── external_calls.py
+│   ├── __init__.py
+│   ├── rosette_process.py
+│   ├── sentiment.py
+│   ├── service_informant.py
+│   └── web_search.py
+├── forcast_index
+│   ├── forcast.py
+│   └── __init__.py
+├── generate_api_data
+│   ├── generate_api_data.py
+│   └── __init__.py
+├── inet_check
+│   ├── inet_check.py
+│   └── __init__.py
+├── init_tagger_db.sh
+├── input
+│   ├── __init__.py
+│   ├── read_document.py
+│   └── read_text.py
+├── js
+│   ├── addButton.js
+│   ├── combine.js
+│   ├── htmlInnerTextLoop.js
+│   ├── postingJSON.js
+│   └── request.js
+├── LICENSE
+├── linty
+│   ├── __init__.py
+│   └── linty.py
+├── ner
+│   ├── __init__.py
+│   └── ner.py
+├── opm.wsgi
+├── passive
+│   ├── __init__.py
+│   ├── passive.py
+│   └── postagger.py
+├── passive.py
+├── plot
+│   ├── __init__.py
+│   └── plot.py
+├── postagger.py
+├── presentation
+│   ├── __init__.py
+│   └── presentation.py
+├── pseudolexile
+│   ├── fkToLexile.py
+│   └── __init__.py
+├── readability
+│   ├── __init__.py
+│   ├── lw_formula.py
+│   ├── readability.py
+│   ├── syllables_en.py
+│   └── utils.py
+├── README.md
+├── requirements.txt
+├── seed_database.py
+├── sentenceStructure
+│   ├── __init__.py
+│   └── sentenceSorter.py
+├── sentence_types
+│   ├── __init__.py
+│   └── sentence_types.py
+├── sentiment
+│   ├── __init__.py
+│   └── sentiment.py
+├── static
+│   ├── 12grade.pdf
+│   ├── audio
+│   │   └── README.md
+│   ├── favicon.ico
+│   ├── fonts
+│   │   ├── glyphicons-halflings-regular.eot
+│   │   ├── glyphicons-halflings-regular.svg
+│   │   ├── glyphicons-halflings-regular.ttf
+│   │   ├── glyphicons-halflings-regular.woff
+│   │   └── glyphicons-halflings-regular.woff2
+│   ├── images
+│   │   ├── eye-creature.png
+│   │   ├── giphy2.gif
+│   │   ├── giphy.gif
+│   │   ├── logo2.png
+│   │   ├── logo4.png
+│   │   ├── logo.png
+│   │   ├── logo.xcf
+│   │   ├── silcrow.png
+│   │   ├── spinner.gif
+│   │   ├── spinner_small.gif
+│   │   └── striding-eye.png
+│   ├── js
+│   │   └── bootstrap.min.js
+│   ├── sample-doc.png
+│   ├── sample_report-a.png
+│   ├── sample-report-b.png
+│   ├── sample-report-c.png
+│   └── styles
+│       ├── bootstrap.css
+│       ├── peer.css
+│       ├── remove.min.css
+│       └── style.css
+├── subject_extraction
+│   ├── __init__.py
+│   └── subject_extraction.py
+├── templates
+│   ├── 400.html
+│   ├── 401.html
+│   ├── 403.html
+│   ├── 404.html
+│   ├── 500.html
+│   ├── about.html
+│   ├── basebase.html
+│   ├── base.html
+│   ├── feedback-base.html
+│   ├── index.html
+│   ├── internal.html
+│   ├── keys.html
+│   ├── log.html
+│   ├── new_results.html
+│   ├── paste.html
+│   ├── proofread-w-tts.html
+│   ├── tts.html
+│   ├── upload.html
+│   ├── url.html
+│   └── usage.html
+├── textgain
+│   ├── __init__.py
+│   └── textgain.py
+├── tmp
+│   └── placeholder.txt
+├── transitions
+│   ├── __init__.py
+│   └── transitions.py
+├── tts
+│   ├── __init__.py
+│   └── tts.py
+├── util
+│   ├── 12thGrade-informationExplanatory.txt
+│   └── jhu-superheroes.docx
+├── weaselWords
+│   ├── __init__.py
+│   └── weaselWords.py
+└── wsgi.py
+
+38 directories, 137 files
