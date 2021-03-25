@@ -1,12 +1,15 @@
-import shelve
-from input.read_document import Sample
+import shelve 
+import _gdbm 
 
+def gdbm_shelve(filename, flag="c"): 
+    return shelve.Shelf(_gdbm.open(filename, flag)) 
+
+from input.read_document import Sample
 document = 'util/12thGrade-informationExplanatory.txt'
 
 report = Sample(document)
-db = shelve.open('shelve')
+db = gdbm_shelve('shelve.db')
 
 db['example'] = report
 
 db.close()
-
