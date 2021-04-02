@@ -53,7 +53,7 @@ def save_tagger(tagger):
     output.close()
 
 def get_tagger():
-    if os.path.exists("tagger.pkl"):
+    if os.path.exists('tagger.pkl'):
         input = open('tagger.pkl', 'rb')
         tagger = load(input)
         input.close()
